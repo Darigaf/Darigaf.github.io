@@ -1,4 +1,0 @@
-Conclua o seu jogo incorporando três fases, onde o player (jogador) deverá ter três vidas, e cada fase deverá ter um tempo determinado para ser executada. As vidas serão decrementadas conforme as regras abaixo.
-Ao passar o tempo da fase o player perde uma vida, ao perder as três vidas o jogo deverá iniciar na fase 1 e todos os contadores reiniciam.
-Cada fase deverá ter um conjunto de obstáculos que prejudicam o deslocamento do player e ao tocar em algum desses obstáculos uma vida será decrementada, ao zerar o numero de vidas o player volta ao inicio da fase em que está.
-
