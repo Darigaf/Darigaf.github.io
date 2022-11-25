@@ -9,7 +9,7 @@ const separacao_tijolo = 10;
 const distancia_esquerda = 30;
 const distancia_topo = 30;
 const velocidade = 3;
-const tempo = 120;
+const tempo = 180;
 let fase = 1;
 let velocidade_atual = velocidade;
 let tamanho_tijolo = [];
@@ -141,6 +141,9 @@ function passou_fase(){
 	fase += 1;
 	velocidade_bola[0] = velocidade*fase;
 	velocidade_bola[1] = velocidade*fase;
+	velocidade_bola[0] --;
+	velocidade_bola[1] --;
+	
 	tijolos = instanciar_tijolos();
 	tempo_restante = tempo-((tempo/10)*fase);
 	tempo_restante *= 100;
